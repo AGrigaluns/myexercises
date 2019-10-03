@@ -1,6 +1,5 @@
 body {
-  background-image: url(../main.jpg);
-}
+  background-image: url(../main.jpg); }
 
 .container {
   width: 1000px;
@@ -9,57 +8,48 @@ body {
   background-color: #292929;
   color: white;
   font-family: arial, sans-serif;
-  padding: 10px;
-}
+  padding: 10px; }
 
 h1 {
-  text-align: center;
-}
+  text-align: center; }
 
 nav {
-  padding: 20px;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #333;
-}
-nav ul li {
-  float: left;
-}
-nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 30px 30px;
-  text-decoration: none;
-}
-nav ul li a:hover {
-  background-color: #111;
-}
+  background-color: #333; }
+  nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden; }
+    nav ul li {
+      float: left; }
+      nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 30px 30px;
+        text-decoration: none; }
+        nav ul li a:hover {
+          background-color: #111; }
+  nav form {
+    float: left; }
+    nav form #search {
+      padding: 15px;
+      margin-top: 20px; }
+    nav form button {
+      padding: 17px; }
+  nav i.fa-bars {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+    float: right; }
+    nav i.fa-bars:hover {
+      background-color: #111; }
 
-#search {
-  padding: 15px;
-  margin-top: 20px;
-}
-
-button {
-  padding: 17px;
-}
-
-i {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 0px 30px;
-  text-decoration: none;
-  float: right;
-}
-i:hover {
-  background-color: #111;
-}
+.clearer {
+  clear: both; }
 
 /* Here ends navigation */
 .back-box {
@@ -68,28 +58,24 @@ i:hover {
   background-color: #292929;
   margin: auto;
   margin-top: 100px;
-  box-shadow: 10px 10px 5px 5px #292929;
-}
+  box-shadow: 10px 10px 5px 5px #292929; }
 
 .moving {
-  margin-left: 350px;
-}
+  margin-left: 350px; }
 
 #move-box1 {
   margin: 10px 20px;
   float: left;
   border: 1px solid black;
   background-color: red;
-  padding: 50px;
-}
+  padding: 50px; }
 
 #move-box2 {
   margin: 10px 20px;
   float: left;
   border: 1px solid black;
   background-color: blue;
-  padding: 50px;
-}
+  padding: 50px; }
 
 .drop-box {
   clear: both;
@@ -99,8 +85,7 @@ i:hover {
   margin-top: 100px;
   margin-bottom: 50px;
   margin-right: 100px;
-  margin-left: 100px;
-}
+  margin-left: 100px; }
 
 /* Here ends drop */
 .form-box {
@@ -111,43 +96,32 @@ i:hover {
   margin-top: 100px;
   box-shadow: 10px 10px 5px 5px #292929;
   background-color: #292929;
-  color: white;
-}
+  color: white; }
 
 .form-group {
   width: 100%;
-  margin-bottom: 15px;
-}
-.form-group label {
-  display: inline-block;
-  width: 48%;
-}
-
-input {
-  width: 48%;
-}
-
-#mysubmit {
-  width: 100px;
-}
+  margin-bottom: 15px; }
+  .form-group label {
+    display: inline-block;
+    width: 48%; }
+  .form-group input {
+    width: 48%; }
+  .form-group #mysubmit {
+    width: 100px; }
 
 #message {
   width: 650px;
-  height: 200px;
-}
+  height: 200px; }
 
 #agreement {
-  margin-right: -150px;
-}
+  margin-right: -150px; }
 
 .box {
-  height: 250px;
-}
+  height: 250px; }
 
 .starpene {
   margin: auto;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .mess-box {
   width: 700px;
@@ -158,8 +132,7 @@ input {
   margin-top: 100px;
   box-shadow: 10px 10px 5px 5px #292929;
   background-color: #292929;
-  color: white;
-}
+  color: white; }
 
 .in-box {
   width: 600px;
@@ -169,16 +142,13 @@ input {
   margin: auto;
   background-color: whitesmoke;
   box-shadow: 10px 10px 5px 5px #292929;
-  color: black;
-}
+  color: black; }
 
 .group {
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .user-data {
-  display: none;
-}
+  display: none; }
 
 /* Here ends form */
 .flow {
@@ -189,11 +159,9 @@ input {
   background-color: orange;
   padding: 20px;
   cursor: pointer;
-  position: fixed;
-}
-.flow:hover {
-  box-shadow: 10px 10px 5px 5px #292929;
-}
+  position: fixed; }
+  .flow:hover {
+    box-shadow: 10px 10px 5px 5px #292929; }
 
 .helpbox {
   padding: 20px;
@@ -202,24 +170,20 @@ input {
   background-color: #292929;
   color: white;
   margin-top: 50px;
-  height: 250px;
-}
+  height: 250px; }
 
 /* Here ends "Need help?" */
 footer {
   margin-top: 100px;
-  text-align: center;
-}
+  text-align: center; }
 
 .close {
   color: #aaaaaa;
-  font-weight: bold;
-}
-.close:hover, .close:focus {
-  color: #000000;
-  text-decoration: none;
-  cursor: pointer;
-}
+  font-weight: bold; }
+  .close:hover, .close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer; }
 
 .modal {
   display: none;
@@ -232,8 +196,7 @@ footer {
   height: 100%;
   overflow: auto;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.4);
-}
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .vid {
   width: 1000px;
@@ -242,16 +205,13 @@ footer {
   background-color: #292929;
   color: white;
   padding: 10px;
-  font-family: arial, sans-serif;
-}
-.vid h4 {
-  text-align: center;
-  font-family: arial, sans-serif;
-}
-.vid iframe {
-  margin-left: 230px;
-  padding-bottom: 20px;
-}
+  font-family: arial, sans-serif; }
+  .vid h4 {
+    text-align: center;
+    font-family: arial, sans-serif; }
+  .vid iframe {
+    margin-left: 230px;
+    padding-bottom: 20px; }
 
 #scroll {
   display: none;
@@ -266,10 +226,8 @@ footer {
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
-  font-size: 17px;
-}
-#scroll:hover {
-  background-color: #111111;
-}
+  font-size: 17px; }
+  #scroll:hover {
+    background-color: #111111; }
 
 /*# sourceMappingURL=main.css.map */

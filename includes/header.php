@@ -26,22 +26,19 @@ include 'texts.php';
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-<div class="topNav">
 <nav>
     <ul>
-        <div id="myLinks">
         <?php foreach ($menu as $entry) : ?>
             <li><a href="<?= $entry['url'] ?>"><?= $entry['label'] ?></a></li>
         <?php endforeach; ?>
-        </div>
-
-        <form action="request.php" method="POST">
-        <input  id="search" type="text" placeholder="search..." name="q">
-            <button name="search" type="submit"></button>
-        </form>
-
-        <i class="fas fa-bars"></i>
-
     </ul>
+
+    <form action="request.php" method="POST">
+        <input id="search" type="text" placeholder="search..." name="q">
+        <button name="search" type="submit"></button>
+    </form>
+
+    <i class="fas fa-bars"></i>
 </nav>
+<div class="clearer">
 </div>
